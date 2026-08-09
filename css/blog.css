@@ -1,0 +1,223 @@
+/* ===============================
+   BLOG PAGE STYLES
+================================ */
+
+
+/* PAGE HERO */
+
+.page-hero {
+    height: 70vh;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    color: white;
+}
+
+.page-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.page-content {
+    position: relative;
+    z-index: 2;
+
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.page-content span {
+    color: var(--secondary);
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.page-content h1 {
+    font-size: 56px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.page-content p {
+    max-width: 650px;
+    margin: 0 auto;
+
+    font-size: 18px;
+    line-height: 1.8;
+
+    opacity: 0.95;
+}
+
+
+/* FEATURED BLOG */
+
+.featured-blog {
+    padding: 100px 0;
+    background: white;
+}
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 60px;
+    align-items: center;
+}
+
+.featured-image img {
+    width: 100%;
+
+    border-radius: 20px;
+
+    box-shadow: var(--shadow);
+}
+
+.featured-content span {
+    color: var(--primary);
+
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    font-size: 14px;
+}
+
+.featured-content h2 {
+    font-size: 38px;
+
+    margin: 18px 0;
+
+    line-height: 1.25;
+}
+
+.featured-content p {
+    line-height: 1.9;
+
+    color: var(--gray);
+
+    margin-bottom: 30px;
+
+    font-size: 16px;
+}
+
+
+/* BLOG GRID */
+
+.blog-list {
+    padding: 80px 0 100px;
+
+    background: var(--light-bg);
+}
+
+.blog-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 35px;
+}
+
+.blog-card {
+    background: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow);
+
+    transition: var(--transition);
+
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+
+.blog-card img {
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+.blog-info {
+    padding: 25px;
+}
+
+.blog-info span {
+    color: var(--primary);
+
+    font-weight: 600;
+
+    font-size: 13px;
+}
+
+.blog-info h3 {
+    margin: 12px 0;
+
+    font-size: 19px;
+
+    line-height: 1.4;
+}
+
+.blog-info p {
+    color: var(--gray);
+
+    line-height: 1.7;
+
+    font-size: 15px;
+}
+
+
+/* BLOG CTA */
+
+.blog-cta {
+    padding: 100px 0;
+
+    background: linear-gradient(
+        135deg,
+        var(--primary),
+        var(--primary-dark)
+    );
+
+    text-align: center;
+
+    color: white;
+}
+
+.blog-cta h2 {
+    font-size: 42px;
+
+    margin-bottom: 20px;
+}
+
+.blog-cta p {
+    max-width: 650px;
+
+    margin: 0 auto 35px;
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    opacity: 0.95;
+}
+
+.blog-cta .primary-btn {
+    background: white;
+
+    color: var(--primary);
+}
+
+.blog-cta .primary-btn:hover {
+    background: #f0f0f0;
+}

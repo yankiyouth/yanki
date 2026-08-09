@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>İlk Gençlik Değişimine Hazırlanırken Bilmeniz Gerekenler | YANKI</title>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!-- NAVBAR -->
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            <img src="../images/Hero.png" alt="YANKI">
+        </a>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="index.html">Ana Sayfa</a>
+            </li>
+
+            <li>
+                <a href="about.html">Biz Kimiz?</a>
+            </li>
+
+            <li>
+                <a href="projects.html">Projeler</a>
+            </li>
+
+            <li>
+                <a href="blog.html" class="active">Blog</a>
+            </li>
+
+            <li>
+                <a href="contact.html">İletişim</a>
+            </li>
+
+        </ul>
+
+        <a href="contact.html" class="join-btn">
+            Bize Katıl
+        </a>
+
+    </nav>
+
+</header>
+
+
+
+<!-- ARTICLE HERO -->
+
+<section class="page-hero">
+
+    <div class="page-overlay"></div>
+
+    <div class="page-content">
+
+        <span>ERASMUS+</span>
+
+        <h1>
+            İlk Gençlik Değişimine Hazırlanırken Bilmeniz Gerekenler
+        </h1>
+
+        <p>
+            İlk Erasmus+ deneyimin için küçük ama önemli ipuçları.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- ARTICLE -->
+
+<section class="blog-article">
+
+    <div class="container">
+
+        <div class="article-content">
+
+
+            <img
+                src="../images/bayraklig.png"
+                alt="Erasmus+ gençlik değişimi"
+                class="article-image"
+            >
+
+
+            <p class="article-intro">
+
+                İlk kez bir Erasmus+ gençlik değişimine katılmak
+                heyecan verici olduğu kadar biraz kafa karıştırıcı
+                da olabilir. Yeni bir ülke, farklı kültürlerden
+                insanlar ve daha önce hiç deneyimlemediğin bir
+                proje süreci seni bekliyor olabilir.
+
+            </p>
+
+
+            <h2>
+                Gençlik Değişimi Nedir?
+            </h2>
+
+            <p>
+
+                Erasmus+ gençlik değişimleri, farklı ülkelerden
+                gençlerin bir araya gelerek belirli bir konu
+                üzerinde birlikte öğrenmesini, üretmesini ve
+                deneyim paylaşmasını sağlayan uluslararası
+                faaliyetlerdir.
+
+            </p>
+
+            <p>
+
+                Bu projelerde yalnızca eğitim almakla kalmaz;
+                farklı kültürleri tanır, yeni arkadaşlıklar kurar
+                ve kendi bakış açını geliştirme fırsatı bulursun.
+
+            </p>
+
+
+            <h2>
+                İlk Projene Gitmeden Önce
+            </h2>
+
+            <p>
+
+                İlk olarak projenin konusunu ve programını dikkatlice
+                incelemek önemli. Projenin hangi amaçla düzenlendiğini
+                anlamak, faaliyetlere daha aktif katılmanı sağlar.
+
+            </p>
+
+            <p>
+
+                Ayrıca proje süresince farklı kültürlerden insanlarla
+                birlikte çalışacağını unutmamalısın. Herkesin
+                alışkanlıkları, iletişim şekilleri ve düşünceleri
+                farklı olabilir.
+
+            </p>
+
+
+            <h2>
+                Konfor Alanından Çıkmaktan Korkma
+            </h2>
+
+            <p>
+
+                Birçok kişi ilk Erasmus+ deneyiminde çekingen
+                hissedebilir. Özellikle yabancı dil konusunda
+                kendine güvenmiyorsan konuşmaktan kaçınabilirsin.
+
+            </p>
+
+            <p>
+
+                Ancak Erasmus+ projelerinin en güzel taraflarından
+                biri mükemmel İngilizce konuşmanı beklememesidir.
+                Önemli olan iletişim kurmaya çalışmak, kendini
+                ifade etmek ve öğrenmeye açık olmaktır.
+
+            </p>
+
+
+            <h2>
+                Yanına Neler Almalısın?
+            </h2>
+
+            <p>
+
+                Projenin gerçekleşeceği ülkenin hava durumunu,
+                konaklama koşullarını ve proje programını önceden
+                kontrol etmek işini kolaylaştıracaktır.
+
+            </p>
+
+            <p>
+
+                Bunun yanında rahat kıyafetler, kişisel eşyaların,
+                gerekli belgelerin ve proje için istenen materyalleri
+                yanında bulundurmayı unutma.
+
+            </p>
+
+
+            <h2>
+                En Önemlisi: Deneyimin Tadını Çıkar!
+            </h2>
+
+            <p>
+
+                Erasmus+ yalnızca bir eğitim veya seyahat deneyimi
+                değildir. Aynı zamanda kendini keşfetme, farklı
+                insanlarla bağ kurma ve dünyaya daha geniş bir
+                perspektiften bakma fırsatıdır.
+
+            </p>
+
+            <p>
+
+                İlk başta biraz heyecanlı veya endişeli hissetmen
+                çok normal. Kendine zaman ver, insanlarla iletişim
+                kur ve mümkün olduğunca faaliyetlere dahil ol.
+
+            </p>
+
+            <p class="article-ending">
+
+                Belki de proje sonunda yanında sadece bir sertifika
+                değil, hayatın boyunca hatırlayacağın anılar ve
+                dostluklar götüreceksin. 🌱
+
+            </p>
+
+
+            <a href="blog.html" class="primary-btn">
+                ← Bloga Dön
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="container footer-container">
+
+        <div class="footer-logo">
+
+            <h2>YANKI</h2>
+
+            <p>
+                Young Ambassadors for Networking,
+                Knowledge & Inclusion
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Hızlı Bağlantılar</h3>
+
+            <a href="index.html">Ana Sayfa</a>
+            <a href="about.html">Biz Kimiz?</a>
+            <a href="projects.html">Projeler</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">İletişim</a>
+
+        </div>
+
+
+        <div class="footer-social">
+
+            <h3>Bizi Takip Et</h3>
+
+            <div class="social-icons">
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 YANKI. Tüm Hakları Saklıdır.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>

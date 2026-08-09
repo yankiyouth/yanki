@@ -1,0 +1,373 @@
+/* ===============================
+   GLOBAL STYLES - YANKI
+================================ */
+
+:root {
+    --primary: #39B86D;
+    --primary-dark: #2F9B65;
+    --secondary: #8EE6AE;
+    --dark: #1a1a1a;
+    --gray: #666;
+    --light-bg: #F7F9F8;
+    --white: #ffffff;
+    --shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+    --radius: 20px;
+    --transition: 0.35s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark);
+    line-height: 1.6;
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+
+/* ===============================
+   SECTION COMMON
+================================ */
+
+.section {
+    padding: 100px 0;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-heading span {
+    color: var(--primary);
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.section-heading h2 {
+    font-size: 42px;
+    margin: 15px 0;
+    line-height: 1.25;
+}
+
+.section-heading p {
+    color: var(--gray);
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+/* ===============================
+   BUTTONS
+================================ */
+
+.primary-btn {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-3px);
+}
+
+.secondary-btn {
+    display: inline-block;
+    background: transparent;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid white;
+    transition: var(--transition);
+}
+
+.secondary-btn:hover {
+    background: white;
+    color: var(--primary);
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+
+.navbar {
+   background-color: rgba(15, 23, 42, 0.95); /* koyu ve net arka plan */
+    backdrop-filter: blur(10px);
+    padding: 12px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; /* istersen fixed de yapabilirsin */
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    padding: 15px 8%;
+}
+
+.navbar.scrolled .logo,
+.navbar.scrolled .nav-links a {
+    color: var(--dark);
+}
+
+.navbar.scrolled .join-btn {
+    background: var(--primary);
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 59px;              /* büyüttük */
+    width: auto;
+    display: block;
+    background-color: white;
+    padding: 6px;              /* etrafına boşluk */
+    border-radius: 10px;       /* yumuşak köşe */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+
+.logo img {
+    display: block;
+}
+
+.logo span {
+    margin-top: 5px;
+    font-size: 9px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #666;
+    letter-spacing: 0.3px;
+    max-width: 180px;
+}
+.nav-links {
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    transition: var(--transition);
+    position: relative;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--secondary);
+}
+
+.navbar.scrolled .nav-links a:hover,
+.navbar.scrolled .nav-links a.active {
+    color: var(--primary);
+}
+
+.join-btn {
+    background: white;
+    color: var(--primary);
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+.join-btn:hover {
+    background: var(--secondary);
+    color: var(--dark);
+}
+
+/* ===============================
+   FOOTER
+================================ */
+
+footer {
+    background: #111;
+    color: #ccc;
+    padding: 80px 0 0;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-logo h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.footer-logo p {
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    display: block;
+    margin-bottom: 12px;
+    color: #aaa;
+    transition: var(--transition);
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+    padding-left: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    background: #222;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ccc;
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.copyright {
+    border-top: 1px solid #222;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    color: #777;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+
+.logo img{
+    height:50px;
+    width:auto;
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.2;
+}
+
+.logo-text span{
+    font-size:11px;
+    font-weight:600;
+
+    background: linear-gradient(90deg, #8fd3a8, #7fd3e6);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+/* YANKI LOGO + NAME */
+
+header .navbar .logo {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+    width: auto !important;
+}
+
+header .navbar .logo img {
+    display: block !important;
+    width: auto !important;
+    height: 55px !important;
+    margin: 0 !important;
+}
+
+header .navbar .logo .logo-name {
+    display: block !important;
+    width: auto !important;
+    max-width: 190px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 10px !important;
+    line-height: 1.4 !important;
+    font-weight: 600 !important;
+
+    background: linear-gradient(
+        90deg,
+        #9adf9a,
+        #8bd8e8
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    white-space: normal !important;
+}

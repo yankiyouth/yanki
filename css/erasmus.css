@@ -1,0 +1,270 @@
+/* ===============================
+   ERASMUS PAGE STYLES
+================================ */
+
+/* PAGE HERO */
+.page-hero {
+    height: 70vh;
+    background-image: url("../images/Hero.png") center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.page-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.page-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.page-content span {
+    color: var(--secondary);
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.page-content h1 {
+    font-size: 54px;
+    margin: 20px 0;
+    line-height: 1.2;
+}
+
+.page-content p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    opacity: 0.95;
+}
+
+/* WHAT IS ERASMUS */
+.what-is {
+    padding: 100px 0;
+    background: white;
+}
+
+.what-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.what-text span {
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.what-text h2 {
+    font-size: 38px;
+    margin: 18px 0;
+    line-height: 1.25;
+}
+
+.what-text p {
+    color: var(--gray);
+    line-height: 1.9;
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.what-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}
+
+/* OPPORTUNITIES */
+.opportunities {
+    padding: 100px 0;
+    background: var(--light-bg);
+}
+
+.opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.opportunity-card {
+    background: white;
+    padding: 40px 35px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.opportunity-card:hover {
+    transform: translateY(-8px);
+}
+
+.opportunity-card i {
+    font-size: 42px;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.opportunity-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.opportunity-card p {
+    color: var(--gray);
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.opportunity-card ul {
+    margin-bottom: 10px;
+}
+
+.opportunity-card ul li {
+    color: #555;
+    margin-bottom: 8px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+/* BENEFITS */
+.benefits {
+    padding: 100px 0;
+    background: white;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.benefit-box {
+    background: var(--light-bg);
+    padding: 40px 25px;
+    border-radius: 18px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.benefit-box:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-8px);
+}
+
+.benefit-box i {
+    font-size: 38px;
+    color: var(--primary);
+    margin-bottom: 18px;
+    transition: var(--transition);
+}
+
+.benefit-box:hover i {
+    color: white;
+}
+
+.benefit-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.benefit-box p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* HOW TO APPLY */
+.how-to {
+    padding: 100px 0;
+    background: var(--light-bg);
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    counter-reset: step;
+}
+
+.step-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+.step-card::before {
+    counter-increment: step;
+    content: counter(step);
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.step-card h3 {
+    margin: 25px 0 12px;
+    font-size: 18px;
+}
+
+.step-card p {
+    color: var(--gray);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* CTA */
+.erasmus-cta {
+    padding: 110px 0;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    text-align: center;
+    color: white;
+}
+
+.erasmus-cta h2 {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.erasmus-cta p {
+    max-width: 680px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    line-height: 1.8;
+    opacity: 0.95;
+}
+
+.erasmus-cta .primary-btn {
+    background: white;
+    color: var(--primary);
+}
+
+.erasmus-cta .primary-btn:hover {
+    background: #f0f0f0;
+}

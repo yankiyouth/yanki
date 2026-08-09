@@ -365,3 +365,97 @@
         border-radius: 30px;
     }
 }
+/* ===============================
+   ABOUT PAGE - EXTRA RESPONSIVE
+================================ */
+
+/* Founders (Ekip) - Tablet */
+@media (max-width: 992px) {
+    .founders {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 30px;
+        justify-items: center;
+    }
+
+    .founder img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .founder h3 {
+        font-size: 16px;
+    }
+
+    .founder p {
+        font-size: 13px;
+    }
+}
+
+/* Founders (Ekip) - Mobile */
+@media (max-width: 768px) {
+    .founders {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px 20px;
+    }
+
+    .founder img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-hero h1 {
+        font-size: 32px;
+    }
+
+    .about-hero p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .about-join h2 {
+        font-size: 28px;
+    }
+
+    .about-join p {
+        font-size: 15px;
+    }
+
+    .mission-card {
+        padding: 35px 25px;
+    }
+
+    .mission-card h3 {
+        font-size: 22px;
+    }
+
+    .value-box {
+        padding: 35px 20px;
+    }
+}
+
+/* Founders - Küçük telefon */
+@media (max-width: 480px) {
+    .founders {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .founder img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .about-hero {
+        padding: 120px 18px 70px;
+        min-height: 60vh;
+    }
+
+    .about-hero h1 {
+        font-size: 26px;
+    }
+
+    .about-hero p {
+        font-size: 14.5px;
+    }
+}
